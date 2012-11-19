@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Company Name</key>
+	<string>Nu</string>
+	<key>Name</key>
+	<string>Hubert</string>
+	<key>First Name</key>
+	<string>Yoann</string>
+	<key>Address</key>
+	<string>125 Avenue Fonsny 1060 Bruxelles, Belgium</string>
+	<key>Type_of_Payement</key>
+	<string>Visa Card</string>
+	<key>Card Number</key>
+	<string>1234568765</string>
+	<key>CVV</key>
+	<string>289</string>
+	<key>Billing Address</key>
+	<string>125 Avenue Fonsny 1060 Bruxelles, Belgium</string>
+</dict>
+</plist>
