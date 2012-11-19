@@ -1,0 +1,45 @@
+<?xml version=1.0 encoding=UTF-8?>
+<nfc>
+    
+    <!-- devices NFC -->
+    
+    <mobile  idnum="001">
+        <name>Samsung Generic S2</name>
+        <mark>Samsung</mark>
+        <platefom>Android</platefom>
+    </mobile>
+    <mobile idnum="002">
+        <name>Samsung Generic S3</name>
+        <mark>Samsung</mark>
+        <platefom>Android</platefom>
+    </mobile>
+    
+   
+    
+    <!--Web Links to NFC  -->
+    
+    <linksnfc idnum="001">
+        <link>www.nearfield.org</link>
+    </linksnfc>
+    <linksnfc idnum="002">
+        <link>www.nfc-forum.org/</link>
+    </linksnfc>
+    <linksnfc idnum="003">
+        <link>www.nfcworld.com/</link>
+    </linksnfc>
+    
+    
+    <!--Web Links to RFID  -->
+    
+    <linksRFID idnum="001">
+        <link>www.rfidjournal.com</link>
+    </linksRFID>
+    <linksRFID idnum="002">
+        <link>www.rfid.org/</link>
+    </linksRFID>
+    <linksRFID idnum="003">
+        <link>www.rfidfr.org/</link>
+    </linksRFID>
+    
+    
+</nfc>

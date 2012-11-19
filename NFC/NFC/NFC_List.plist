@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Mobile</key>
+	<array>
+		<string>Samsung Galaxy S2</string>
+		<string>Google Nexus S</string>
+		<string>Google Nexus Q</string>
+		<string>AcerE320 Liquid Express</string>
+		<string>BlackBerry Bold 9790</string>
+		<string>Blackberry Bold 9900/9930</string>
+		<string>BlackBerry Curve 9350/9360/9370</string>
+		<string>BlackBerry Curve 9380</string>
+		<string>C-mil 1</string>
+		<string>C-mil 3</string>
+		<string>Casio DT-X8</string>
+		<string>Casio IT-800</string>
+		<string>Fujitsu u F-07D</string>
+		<string>Google Galaxy Nexus</string>
+		<string>Google Nexus 7</string>
+		<string>HTC Incredible</string>
+		<string>HTC One X</string>
+		<string>HTC Ruby/Amaze 4G</string>
+		<string>Huawei Sonic/Turkcell T20</string>
+		<string>Kuoziro FT701W NFC Tablet</string>
+		<string>LG Optimus Elite</string>
+		<string>LG Optimus L5</string>
+		<string>LG Optimus L7</string>
+		<string>LG Optimus LTE</string>
+		<string>LG Optimus Net</string>
+		<string>LG Optimus Vu</string>
+		<string>LG T530 Ego</string>
+		<string>Mobiwire Cosphone</string>
+		<string>Motorola Droid Razr</string>
+		<string>Motorola MC75A HF</string>
+		<string>Nokia 603</string>
+		<string>Nokia 700</string>
+		<string>Nokia 701</string>
+		<string>Nokia 801T</string>
+		<string>Nokia C7/Astound</string>
+		<string>Nokia N9</string>
+		<string>Nokia Oro</string>
+		<string>Orange san Diego</string>
+		<string>Panasonic BizPad</string>
+		<string>Pantech Sky vega LTE</string>
+		<string>Porsche Design P&apos;9981</string>
+		<string>Prada phone by LG 3.0</string>
+		<string>Samsung Galaxy S Advance</string>
+		<string>Samsung Galaxy Mini2</string>
+		<string>Samsung Galaxy S Blaze 4G</string>
+		<string>Samsung Galaxy S3</string>
+		<string>Samsung S5230 NFC</string>
+		<string>Samsung S5260 NFC</string>
+		<string>Samsung SHW-A170K</string>
+		<string>Samsung Wave 578</string>
+		<string>Samsung Wave M</string>
+		<string>Samsung Wave Y</string>
+		<string>Sharp RW-T107 NFC Tablet</string>
+		<string>Sharp RW-T110 NFC Tablet</string>
+		<string>Sky Vega Racer</string>
+		<string>Sonim XP1301 Core NFC</string>
+		<string>Sony Xperia S</string>
+		<string>Turkcell T11/ZTE Racer 2</string>
+		<string>Xolo X900</string>
+		<string>ZTE Turkcell MaxiPLUS5</string>
+		<string>--- Comming soon ---</string>
+		<string>Aver Cloud Mobile</string>
+		<string>Acer Liquid Glow</string>
+		<string>Asmaitha Sruta 7&quot; Tablet</string>
+		<string>DLI 9000</string>
+		<string>G.To N800</string>
+		<string>Gentag GT -601</string>
+		<string>HTC Desire C</string>
+		<string>HTC Droid Incredible 4G LTE</string>
+		<string>HTC Evo 4G LTE</string>
+		<string>Lenovo K800</string>
+		<string>LG Optimus LTE tag</string>
+		<string>LG Viper</string>
+		<string>Lumigon T2</string>
+		<string>M3 Android NFC Communicator</string>
+		<string>Nokia 808 PureView</string>
+		<string>Nokia N5</string>
+		<string>Panasonic Eluga</string>
+		<string>Panasonic Eluga Power</string>
+		<string>Samsung Galaxy Ace 2</string>
+		<string>Sharp Aquos Phone Serie</string>
+		<string>Sony Xperia Ion</string>
+		<string>Sony Experia P</string>
+		<string>Taztag TazPad</string>
+		<string>TazTag TPH-One</string>
+		<string>Yulong Coolpad 8870 NFC</string>
+		<string>ZTE Blade 2</string>
+		<string>ZTE Kis</string>
+		<string>ZTE Orbit</string>
+		<string>ZTE PF200</string>
+		<string></string>
+	</array>
+	<key>Web_links_NFC</key>
+	<array>
+		<string>nearfield.org</string>
+		<string>www.nfc-forum.org</string>
+		<string>www.nfcworld.com</string>
+		<string>www.nfcnews.com</string>
+		<string>www.nearfieldcommunication.org</string>
+		<string>www.nfcnearfieldcommunication.org</string>
+		<string>open-nfc.org</string>
+	</array>
+	<key>Web_links_RFID</key>
+	<array>
+		<string>www.rfidfr.org</string>
+		<string>www.rfidjournal.com</string>
+		<string>www.rfid.org</string>
+		<string>www.nxp-rfid.com</string>
+		<string>www.zebra.com</string>
+		<string>www.rfidupdate.com</string>
+		<string>www.centrenational-rfid.com</string>
+		<string>www.tagsysrfid.com</string>
+		<string>www.intermec.fr</string>
+	</array>
+</dict>
+</plist>
