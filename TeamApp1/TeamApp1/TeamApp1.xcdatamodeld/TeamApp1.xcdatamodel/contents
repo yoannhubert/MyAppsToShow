@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="562" systemVersion="11C74" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Player" representedClassName="Player">
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="goal" optional="YES" attributeType="String"/>
+        <attribute name="level" optional="YES" attributeType="String"/>
+        <attribute name="objofmonth" optional="YES" attributeType="String"/>
+        <attribute name="photo" optional="YES" attributeType="Binary"/>
+        <attribute name="postcode" optional="YES" attributeType="String"/>
+        <attribute name="timesaweek" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Player" positionX="261" positionY="189" width="128" height="150"/>
+    </elements>
+</model>
