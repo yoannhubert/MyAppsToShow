@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E61BCF17153035D000B8B698 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E61BCF16153035D000B8B698 /* CoreData.framework */; };
+		E690EA60150CEA0C0070452E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E690EA5F150CEA0C0070452E /* UIKit.framework */; };
+		E690EA62150CEA0C0070452E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E690EA61150CEA0C0070452E /* Foundation.framework */; };
+		E690EA64150CEA0C0070452E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E690EA63150CEA0C0070452E /* CoreGraphics.framework */; };
+		E690EA6A150CEA0C0070452E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E690EA68150CEA0C0070452E /* InfoPlist.strings */; };
+		E690EA6C150CEA0C0070452E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E690EA6B150CEA0C0070452E /* main.m */; };
+		E690EA70150CEA0C0070452E /* MapViewApp1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E690EA6F150CEA0C0070452E /* MapViewApp1AppDelegate.m */; };
+		E690EA73150CEA0C0070452E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E690EA71150CEA0C0070452E /* MainWindow.xib */; };
+		E690EA76150CEA0C0070452E /* MapViewApp1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E690EA75150CEA0C0070452E /* MapViewApp1ViewController.m */; };
+		E690EA79150CEA0C0070452E /* MapViewApp1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E690EA77150CEA0C0070452E /* MapViewApp1ViewController.xib */; };
+		E690EA81150CEA0C0070452E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E690EA80150CEA0C0070452E /* SenTestingKit.framework */; };
+		E690EA82150CEA0C0070452E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E690EA5F150CEA0C0070452E /* UIKit.framework */; };
+		E690EA83150CEA0C0070452E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E690EA61150CEA0C0070452E /* Foundation.framework */; };
+		E690EA84150CEA0C0070452E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E690EA63150CEA0C0070452E /* CoreGraphics.framework */; };
+		E690EA8C150CEA0C0070452E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E690EA8A150CEA0C0070452E /* InfoPlist.strings */; };
+		E690EA8E150CEA0C0070452E /* MapViewApp1Tests.h in Resources */ = {isa = PBXBuildFile; fileRef = E690EA8D150CEA0C0070452E /* MapViewApp1Tests.h */; };
+		E690EA90150CEA0C0070452E /* MapViewApp1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E690EA8F150CEA0C0070452E /* MapViewApp1Tests.m */; };
+		E690EABA150FD4840070452E /* AddressAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E690EAB9150FD4840070452E /* AddressAnnotation.m */; };
+		E690EB79151374A30070452E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E690EB78151374A30070452E /* MapKit.framework */; };
+		E690ED7C151397360070452E /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = E690EBD3151397340070452E /* NSObject+JSON.m */; };
+		E690ED7D151397360070452E /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E690EBD6151397340070452E /* SBJsonParser.m */; };
+		E690ED7E151397360070452E /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E690EBD8151397340070452E /* SBJsonStreamParser.m */; };
+		E690ED7F151397360070452E /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = E690EBDA151397340070452E /* SBJsonStreamParserAccumulator.m */; };
+		E690ED80151397360070452E /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = E690EBDC151397340070452E /* SBJsonStreamParserAdapter.m */; };
+		E690ED81151397360070452E /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = E690EBDE151397340070452E /* SBJsonStreamParserState.m */; };
+		E690ED82151397360070452E /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = E690EBE0151397340070452E /* SBJsonStreamWriter.m */; };
+		E690ED83151397360070452E /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = E690EBE2151397340070452E /* SBJsonStreamWriterAccumulator.m */; };
+		E690ED84151397360070452E /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = E690EBE4151397340070452E /* SBJsonStreamWriterState.m */; };
+		E690ED85151397360070452E /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = E690EBE6151397340070452E /* SBJsonTokeniser.m */; };
+		E690ED86151397360070452E /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = E690EBE8151397340070452E /* SBJsonWriter.m */; };
+		E690ED87151397360070452E /* SBStateStack.m in Sources */ = {isa = PBXBuildFile; fileRef = E690EBEA151397340070452E /* SBStateStack.m */; };
+		E690ED88151397360070452E /* SBUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = E690EBEC151397340070452E /* SBUTF8Stream.m */; };
+		E6CA293E1527B5B200955D04 /* myCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6CA293D1527B5B200955D04 /* myCustomCell.xib */; };
+		E6CA29411527B62D00955D04 /* myCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CA29401527B62D00955D04 /* myCustomCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E690EA85150CEA0C0070452E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E690EA52150CEA0B0070452E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E690EA5A150CEA0C0070452E;
+			remoteInfo = MapViewApp1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E61BCF16153035D000B8B698 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E690EA5B150CEA0C0070452E /* MapViewApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapViewApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E690EA5F150CEA0C0070452E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E690EA61150CEA0C0070452E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E690EA63150CEA0C0070452E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E690EA67150CEA0C0070452E /* MapViewApp1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapViewApp1-Info.plist"; sourceTree = "<group>"; };
+		E690EA69150CEA0C0070452E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E690EA6B150CEA0C0070452E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E690EA6D150CEA0C0070452E /* MapViewApp1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapViewApp1-Prefix.pch"; sourceTree = "<group>"; };
+		E690EA6E150CEA0C0070452E /* MapViewApp1AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewApp1AppDelegate.h; sourceTree = "<group>"; };
+		E690EA6F150CEA0C0070452E /* MapViewApp1AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewApp1AppDelegate.m; sourceTree = "<group>"; };
+		E690EA72150CEA0C0070452E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E690EA74150CEA0C0070452E /* MapViewApp1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewApp1ViewController.h; sourceTree = "<group>"; };
+		E690EA75150CEA0C0070452E /* MapViewApp1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewApp1ViewController.m; sourceTree = "<group>"; };
+		E690EA78150CEA0C0070452E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MapViewApp1ViewController.xib; sourceTree = "<group>"; };
+		E690EA7F150CEA0C0070452E /* MapViewApp1Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapViewApp1Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E690EA80150CEA0C0070452E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E690EA89150CEA0C0070452E /* MapViewApp1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapViewApp1Tests-Info.plist"; sourceTree = "<group>"; };
+		E690EA8B150CEA0C0070452E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E690EA8D150CEA0C0070452E /* MapViewApp1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewApp1Tests.h; sourceTree = "<group>"; };
+		E690EA8F150CEA0C0070452E /* MapViewApp1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewApp1Tests.m; sourceTree = "<group>"; };
+		E690EAB8150FD4840070452E /* AddressAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressAnnotation.h; sourceTree = "<group>"; };
+		E690EAB9150FD4840070452E /* AddressAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressAnnotation.m; sourceTree = "<group>"; };
+		E690EB78151374A30070452E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E690EBD1151397340070452E /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		E690EBD2151397340070452E /* NSObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSON.h"; sourceTree = "<group>"; };
+		E690EBD3151397340070452E /* NSObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSON.m"; sourceTree = "<group>"; };
+		E690EBD4151397340070452E /* SBJsonIncludes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonIncludes.h; sourceTree = "<group>"; };
+		E690EBD5151397340070452E /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		E690EBD6151397340070452E /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		E690EBD7151397340070452E /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		E690EBD8151397340070452E /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		E690EBD9151397340070452E /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		E690EBDA151397340070452E /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		E690EBDB151397340070452E /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		E690EBDC151397340070452E /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		E690EBDD151397340070452E /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		E690EBDE151397340070452E /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		E690EBDF151397340070452E /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		E690EBE0151397340070452E /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		E690EBE1151397340070452E /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		E690EBE2151397340070452E /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		E690EBE3151397340070452E /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		E690EBE4151397340070452E /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		E690EBE5151397340070452E /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		E690EBE6151397340070452E /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		E690EBE7151397340070452E /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		E690EBE8151397340070452E /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		E690EBE9151397340070452E /* SBStateStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBStateStack.h; sourceTree = "<group>"; };
+		E690EBEA151397340070452E /* SBStateStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBStateStack.m; sourceTree = "<group>"; };
+		E690EBEB151397340070452E /* SBUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBUTF8Stream.h; sourceTree = "<group>"; };
+		E690EBEC151397340070452E /* SBUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBUTF8Stream.m; sourceTree = "<group>"; };
+		E6CA293D1527B5B200955D04 /* myCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myCustomCell.xib; sourceTree = "<group>"; };
+		E6CA293F1527B62D00955D04 /* myCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myCustomCell.h; sourceTree = "<group>"; };
+		E6CA29401527B62D00955D04 /* myCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myCustomCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E690EA58150CEA0C0070452E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61BCF17153035D000B8B698 /* CoreData.framework in Frameworks */,
+				E690EB79151374A30070452E /* MapKit.framework in Frameworks */,
+				E690EA60150CEA0C0070452E /* UIKit.framework in Frameworks */,
+				E690EA62150CEA0C0070452E /* Foundation.framework in Frameworks */,
+				E690EA64150CEA0C0070452E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E690EA7B150CEA0C0070452E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E690EA81150CEA0C0070452E /* SenTestingKit.framework in Frameworks */,
+				E690EA82150CEA0C0070452E /* UIKit.framework in Frameworks */,
+				E690EA83150CEA0C0070452E /* Foundation.framework in Frameworks */,
+				E690EA84150CEA0C0070452E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E690EA50150CEA0B0070452E = {
+			isa = PBXGroup;
+			children = (
+				E690EBD0151397340070452E /* Classes */,
+				E690EA65150CEA0C0070452E /* MapViewApp1 */,
+				E690EA87150CEA0C0070452E /* MapViewApp1Tests */,
+				E690EA5E150CEA0C0070452E /* Frameworks */,
+				E690EA5C150CEA0C0070452E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E690EA5C150CEA0C0070452E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E690EA5B150CEA0C0070452E /* MapViewApp1.app */,
+				E690EA7F150CEA0C0070452E /* MapViewApp1Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E690EA5E150CEA0C0070452E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E690EB78151374A30070452E /* MapKit.framework */,
+				E61BCF16153035D000B8B698 /* CoreData.framework */,
+				E690EA5F150CEA0C0070452E /* UIKit.framework */,
+				E690EA61150CEA0C0070452E /* Foundation.framework */,
+				E690EA63150CEA0C0070452E /* CoreGraphics.framework */,
+				E690EA80150CEA0C0070452E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E690EA65150CEA0C0070452E /* MapViewApp1 */ = {
+			isa = PBXGroup;
+			children = (
+				E690EA6E150CEA0C0070452E /* MapViewApp1AppDelegate.h */,
+				E690EA6F150CEA0C0070452E /* MapViewApp1AppDelegate.m */,
+				E690EA71150CEA0C0070452E /* MainWindow.xib */,
+				E690EA74150CEA0C0070452E /* MapViewApp1ViewController.h */,
+				E690EA75150CEA0C0070452E /* MapViewApp1ViewController.m */,
+				E690EA77150CEA0C0070452E /* MapViewApp1ViewController.xib */,
+				E690EA66150CEA0C0070452E /* Supporting Files */,
+				E690EAB8150FD4840070452E /* AddressAnnotation.h */,
+				E690EAB9150FD4840070452E /* AddressAnnotation.m */,
+				E6CA293D1527B5B200955D04 /* myCustomCell.xib */,
+				E6CA293F1527B62D00955D04 /* myCustomCell.h */,
+				E6CA29401527B62D00955D04 /* myCustomCell.m */,
+			);
+			path = MapViewApp1;
+			sourceTree = "<group>";
+		};
+		E690EA66150CEA0C0070452E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E690EA67150CEA0C0070452E /* MapViewApp1-Info.plist */,
+				E690EA68150CEA0C0070452E /* InfoPlist.strings */,
+				E690EA6B150CEA0C0070452E /* main.m */,
+				E690EA6D150CEA0C0070452E /* MapViewApp1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E690EA87150CEA0C0070452E /* MapViewApp1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E690EA8D150CEA0C0070452E /* MapViewApp1Tests.h */,
+				E690EA8F150CEA0C0070452E /* MapViewApp1Tests.m */,
+				E690EA88150CEA0C0070452E /* Supporting Files */,
+			);
+			path = MapViewApp1Tests;
+			sourceTree = "<group>";
+		};
+		E690EA88150CEA0C0070452E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E690EA89150CEA0C0070452E /* MapViewApp1Tests-Info.plist */,
+				E690EA8A150CEA0C0070452E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E690EBD0151397340070452E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E690EBD1151397340070452E /* JSON.h */,
+				E690EBD2151397340070452E /* NSObject+JSON.h */,
+				E690EBD3151397340070452E /* NSObject+JSON.m */,
+				E690EBD4151397340070452E /* SBJsonIncludes.h */,
+				E690EBD5151397340070452E /* SBJsonParser.h */,
+				E690EBD6151397340070452E /* SBJsonParser.m */,
+				E690EBD7151397340070452E /* SBJsonStreamParser.h */,
+				E690EBD8151397340070452E /* SBJsonStreamParser.m */,
+				E690EBD9151397340070452E /* SBJsonStreamParserAccumulator.h */,
+				E690EBDA151397340070452E /* SBJsonStreamParserAccumulator.m */,
+				E690EBDB151397340070452E /* SBJsonStreamParserAdapter.h */,
+				E690EBDC151397340070452E /* SBJsonStreamParserAdapter.m */,
+				E690EBDD151397340070452E /* SBJsonStreamParserState.h */,
+				E690EBDE151397340070452E /* SBJsonStreamParserState.m */,
+				E690EBDF151397340070452E /* SBJsonStreamWriter.h */,
+				E690EBE0151397340070452E /* SBJsonStreamWriter.m */,
+				E690EBE1151397340070452E /* SBJsonStreamWriterAccumulator.h */,
+				E690EBE2151397340070452E /* SBJsonStreamWriterAccumulator.m */,
+				E690EBE3151397340070452E /* SBJsonStreamWriterState.h */,
+				E690EBE4151397340070452E /* SBJsonStreamWriterState.m */,
+				E690EBE5151397340070452E /* SBJsonTokeniser.h */,
+				E690EBE6151397340070452E /* SBJsonTokeniser.m */,
+				E690EBE7151397340070452E /* SBJsonWriter.h */,
+				E690EBE8151397340070452E /* SBJsonWriter.m */,
+				E690EBE9151397340070452E /* SBStateStack.h */,
+				E690EBEA151397340070452E /* SBStateStack.m */,
+				E690EBEB151397340070452E /* SBUTF8Stream.h */,
+				E690EBEC151397340070452E /* SBUTF8Stream.m */,
+			);
+			name = Classes;
+			path = "../../../../Downloads/JSON v3.0beta2 (Mac)/Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E690EA5A150CEA0C0070452E /* MapViewApp1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E690EA93150CEA0C0070452E /* Build configuration list for PBXNativeTarget "MapViewApp1" */;
+			buildPhases = (
+				E690EA57150CEA0C0070452E /* Sources */,
+				E690EA58150CEA0C0070452E /* Frameworks */,
+				E690EA59150CEA0C0070452E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapViewApp1;
+			productName = MapViewApp1;
+			productReference = E690EA5B150CEA0C0070452E /* MapViewApp1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E690EA7E150CEA0C0070452E /* MapViewApp1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E690EA96150CEA0C0070452E /* Build configuration list for PBXNativeTarget "MapViewApp1Tests" */;
+			buildPhases = (
+				E690EA7A150CEA0C0070452E /* Sources */,
+				E690EA7B150CEA0C0070452E /* Frameworks */,
+				E690EA7C150CEA0C0070452E /* Resources */,
+				E690EA7D150CEA0C0070452E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E690EA86150CEA0C0070452E /* PBXTargetDependency */,
+			);
+			name = MapViewApp1Tests;
+			productName = MapViewApp1Tests;
+			productReference = E690EA7F150CEA0C0070452E /* MapViewApp1Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E690EA52150CEA0B0070452E /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E690EA55150CEA0B0070452E /* Build configuration list for PBXProject "MapViewApp1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = E690EA50150CEA0B0070452E;
+			productRefGroup = E690EA5C150CEA0C0070452E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E690EA5A150CEA0C0070452E /* MapViewApp1 */,
+				E690EA7E150CEA0C0070452E /* MapViewApp1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E690EA59150CEA0C0070452E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E690EA6A150CEA0C0070452E /* InfoPlist.strings in Resources */,
+				E690EA73150CEA0C0070452E /* MainWindow.xib in Resources */,
+				E690EA79150CEA0C0070452E /* MapViewApp1ViewController.xib in Resources */,
+				E6CA293E1527B5B200955D04 /* myCustomCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E690EA7C150CEA0C0070452E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E690EA8C150CEA0C0070452E /* InfoPlist.strings in Resources */,
+				E690EA8E150CEA0C0070452E /* MapViewApp1Tests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E690EA7D150CEA0C0070452E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E690EA57150CEA0C0070452E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E690EA6C150CEA0C0070452E /* main.m in Sources */,
+				E690EA70150CEA0C0070452E /* MapViewApp1AppDelegate.m in Sources */,
+				E690EA76150CEA0C0070452E /* MapViewApp1ViewController.m in Sources */,
+				E690EABA150FD4840070452E /* AddressAnnotation.m in Sources */,
+				E690ED7C151397360070452E /* NSObject+JSON.m in Sources */,
+				E690ED7D151397360070452E /* SBJsonParser.m in Sources */,
+				E690ED7E151397360070452E /* SBJsonStreamParser.m in Sources */,
+				E690ED7F151397360070452E /* SBJsonStreamParserAccumulator.m in Sources */,
+				E690ED80151397360070452E /* SBJsonStreamParserAdapter.m in Sources */,
+				E690ED81151397360070452E /* SBJsonStreamParserState.m in Sources */,
+				E690ED82151397360070452E /* SBJsonStreamWriter.m in Sources */,
+				E690ED83151397360070452E /* SBJsonStreamWriterAccumulator.m in Sources */,
+				E690ED84151397360070452E /* SBJsonStreamWriterState.m in Sources */,
+				E690ED85151397360070452E /* SBJsonTokeniser.m in Sources */,
+				E690ED86151397360070452E /* SBJsonWriter.m in Sources */,
+				E690ED87151397360070452E /* SBStateStack.m in Sources */,
+				E690ED88151397360070452E /* SBUTF8Stream.m in Sources */,
+				E6CA29411527B62D00955D04 /* myCustomCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E690EA7A150CEA0C0070452E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E690EA90150CEA0C0070452E /* MapViewApp1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E690EA86150CEA0C0070452E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E690EA5A150CEA0C0070452E /* MapViewApp1 */;
+			targetProxy = E690EA85150CEA0C0070452E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E690EA68150CEA0C0070452E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E690EA69150CEA0C0070452E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E690EA71150CEA0C0070452E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E690EA72150CEA0C0070452E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E690EA77150CEA0C0070452E /* MapViewApp1ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E690EA78150CEA0C0070452E /* en */,
+			);
+			name = MapViewApp1ViewController.xib;
+			sourceTree = "<group>";
+		};
+		E690EA8A150CEA0C0070452E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E690EA8B150CEA0C0070452E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E690EA91150CEA0C0070452E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E690EA92150CEA0C0070452E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E690EA94150CEA0C0070452E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapViewApp1/MapViewApp1-Prefix.pch";
+				INFOPLIST_FILE = "MapViewApp1/MapViewApp1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E690EA95150CEA0C0070452E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapViewApp1/MapViewApp1-Prefix.pch";
+				INFOPLIST_FILE = "MapViewApp1/MapViewApp1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E690EA97150CEA0C0070452E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MapViewApp1.app/MapViewApp1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapViewApp1/MapViewApp1-Prefix.pch";
+				INFOPLIST_FILE = "MapViewApp1Tests/MapViewApp1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E690EA98150CEA0C0070452E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MapViewApp1.app/MapViewApp1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapViewApp1/MapViewApp1-Prefix.pch";
+				INFOPLIST_FILE = "MapViewApp1Tests/MapViewApp1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E690EA55150CEA0B0070452E /* Build configuration list for PBXProject "MapViewApp1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E690EA91150CEA0C0070452E /* Debug */,
+				E690EA92150CEA0C0070452E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E690EA93150CEA0C0070452E /* Build configuration list for PBXNativeTarget "MapViewApp1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E690EA94150CEA0C0070452E /* Debug */,
+				E690EA95150CEA0C0070452E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E690EA96150CEA0C0070452E /* Build configuration list for PBXNativeTarget "MapViewApp1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E690EA97150CEA0C0070452E /* Debug */,
+				E690EA98150CEA0C0070452E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E690EA52150CEA0B0070452E /* Project object */;
+}
